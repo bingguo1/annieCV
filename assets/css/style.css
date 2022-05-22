@@ -10,9 +10,21 @@
 # General
 --------------------------------------------------------------*/
 
+#cvlink {
+    color: purple;
+    font-size: 1em;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    font-size: 1.1em;
+    /* 14px/16=0.875em */
 }
 
 a {
@@ -308,7 +320,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
+    padding: 20px 0;
     overflow: hidden;
 }
 
